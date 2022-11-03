@@ -1,0 +1,21 @@
+{
+    "name": "danieldev/app-salon",
+    "description": "App de citas para salon de belleza",
+    "autoload": {
+        "psr-4": {
+            "MVC\\": "./",
+            "Model\\": "./models",
+            "Controllers\\": "./controllers",
+            "Classes\\": "./classes"
+        }
+    },
+    "authors": [
+        {
+            "name": "DanielDev"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.6",
+        "vlucas/phpdotenv": "^5.5"
+    }
+}
